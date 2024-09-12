@@ -199,5 +199,5 @@ async function getToken(type){
 }
 
 export default withAuthenticator(App, 
-  { hideSignUp: true , signUpAttributes: ["name"]}
+  { hideSignUp: false , signUpAttributes: ["name"]}
 );
