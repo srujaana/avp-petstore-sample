@@ -1,4 +1,4 @@
-import { Amplify, API, Auth } from 'aws-amplify';
+iimport { Amplify, API, Auth } from 'aws-amplify';
 
 import { withAuthenticator,
   Expander, 
@@ -199,5 +199,5 @@ async function getToken(type){
 }
 
 export default withAuthenticator(App, 
-  { hideSignUp: false , signUpAttributes: ["EMAIL"]}
+  { hideSignUp: false , signUpAttributes: ["email"]}
 );
